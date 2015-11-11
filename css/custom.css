@@ -35,7 +35,7 @@ body {
 	padding: 3rem 0;
 	box-shadow: 5px 10px 1px #333;
 }
-.p2 {
+section:last-of-type {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
