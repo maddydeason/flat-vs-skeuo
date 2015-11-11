@@ -1,0 +1,118 @@
+/* --- custom css --- */
+
+/* - GLOBAL - */
+body {
+	background: url(../img/header.jpg) no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+/* - SECTIONS - */
+.header {
+	margin-top: 8rem;
+	background: #F42272;
+	opacity: .7;
+	width: 75%;
+	margin-left: 0;
+	padding: 5rem 2rem 4rem 2rem;
+	box-shadow: 5px 5px 1px #333;
+	border-radius: .5rem;
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	margin-left: 1rem;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 25px solid #C02D64;
+	position: absolute;
+}
+
+.paragraph {
+	background: #f7f7f7;
+	padding: 3rem 0;
+	box-shadow: 5px 10px 1px #333;
+}
+.p2 {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.type {
+	border-top: 5px solid #C02D64;
+	margin-top: 2rem;
+}
+.pro {
+	background: #e0e0e0;
+	border-right: 5px solid #C02D64;
+	padding: 2rem 1rem 1rem 1rem;
+}
+.con {
+	background: #222;
+	border-right: 5px solid #C02D64;
+	padding: 2rem 1rem 1rem 1rem;
+}
+
+/* - TEXT - */
+.columns h3, .columns h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-bottom: 1rem;
+}
+.columns h5, .columns ul {
+	font-family: 'Merriweather', serif;
+}
+
+.header h1, .header h6 {
+	font-family: 'PT Mono', monotype;
+	font-weight: 700;
+	color: #fff;
+}
+.header h6 {
+	float: right;
+	color: #860737;
+}
+.header span {
+	color: #860737;
+}
+
+.paragraph h3, .paragraph h6 {
+	text-transform: uppercase;
+}
+.paragraph span {
+	float: right;
+}
+.paragraph span, .paragraph h6 {
+	color: #e0e0e0;
+}
+.paragraph h6 {
+	margin-top: -1rem;
+	margin-bottom: 1rem;
+}
+
+.con h4, .con ul {
+	color: #f7f7f7;
+}
+.type h4 {
+	margin-bottom: 1rem;
+}
+
+/* - LINKS - */
+
+a {
+	color: #2dc089;
+	font-weight: 700;
+	padding: 3px 4px;
+}
+a:hover {
+	background: #2dc089;
+	color: #f7f7f7;
+	transition: ease .3s;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	-o-transition: ease .3s;
+
+}
